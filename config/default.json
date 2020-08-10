@@ -1,3 +1,4 @@
+
 {
     "mongoURI": "mongodb+srv://exFitGuy555:Wwewwewwe55@cluster0.zjp1o.mongodb.net/<dbname>?retryWrites=true&w=majority",
     "jwt": "secret"

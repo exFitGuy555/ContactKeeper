@@ -1,3 +1,5 @@
+//All routes Leading to Action on Contacts Crud
+
 const express = require('express')
 const router = express.Router();
 const User = require('../models/User')
@@ -76,6 +78,7 @@ router.put('/:id', auth, async  (req, res) => {
          if (email) contactFields.email = email;
 
          try{
+             //params will allways come when we have /:XXX
           let contact = await Contact.findById(req.params.id)
 
           if(!contact){

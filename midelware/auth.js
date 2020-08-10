@@ -1,3 +1,5 @@
+//main auth midelware
+
 const jwt = require('jsonwebtoken');
 const config = require('config');
 
